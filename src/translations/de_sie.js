@@ -1152,6 +1152,25 @@ module.exports = {
 		"yes_label": "Ja",
 		"yourFolders_action": "Ihre ORDNER",
 		"yourMessage_label": "Ihre Nachricht",
-		"laterInvoicingInfo_msg": "Separat dazu gebuchte Features werden nicht direkt abgebucht, sondern erst zum nächstmöglichen Zeitpunkt der Abrechnung hinzugefügt."
+		"laterInvoicingInfo_msg": "Separat dazu gebuchte Features werden nicht direkt abgebucht, sondern erst zum nächstmöglichen Zeitpunkt der Abrechnung hinzugefügt.",
+		"appInfoFDroidImageAlt_alt": "Android App bei F-Droid",
+		"formatTextRight_msg": "Rechts",
+		"updateAvailable_label": "Neue Version verfügbar ({version})",
+		"clickToUpdate_msg": "Hier klicken um sie sofort zu installieren.",
+		"previous_action": "Zurück",
+		"ignoreCase_alt": "Groß/Kleinschreibung ignorieren",
+		"matchCase_alt": "Groß/Kleinschreibung beachten",
+		"searchPage_label": "Seite durchsuchen...",
+		"copyLink_action": "Linkaddresse kopieren",
+		"cut_action": "Ausschneiden",
+		"paste_action": "Einfügen",
+		"undo_action": "Rückgängig",
+		"redo_action": "Wiederholen",
+		"desktop_label": "Desktop",
+		"registered_label": "Registriert",
+		"unregistered_label": "Unregistriert",
+		"defaultMailHandler_msg": "Registrieren Sie Tutanota Desktop als das Standard-Mailprogramm, z.B. um mailto Links zu öffnen. Diese Aktion könnte Administratorrechte erfordern.",
+		"defaultMailHandler_label": "Standardprogramm für E-Mail",
+		"desktopSettings_label": "Desktop-Einstellungen"
 	}
 }
