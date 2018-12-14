@@ -290,7 +290,7 @@ export class LoginView {
 		if (requestedPath.startsWith("/signup")) {
 			this._signup()
 			return
-		} else if(requestedPath.startsWith("/recover")) {
+		} else if (requestedPath.startsWith("/recover")) {
 			return
 		}
 		this._showingSignup = false
@@ -324,9 +324,9 @@ export class LoginView {
 					    .finally(() => localStorage.removeItem("config")))
 			}
 
-		}/* else if (isApp()) {
-			promise = deviceConfig.loadAppCredentials()
-		}*/
+		} else if (isApp()) {
+			promise = deviceConfig._loadCredentialsFromNative()
+		}
 		promise.then(() => {
 			if ((args.loginWith || args.userId) && !(args.loginWith && deviceConfig.get(args.loginWith) ||
 				args.userId && deviceConfig.getByUserId(args.userId))) {
