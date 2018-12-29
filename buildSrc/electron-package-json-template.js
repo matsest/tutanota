@@ -95,7 +95,7 @@ module.exports = function (nameSuffix, version, targetUrl, iconPath, sign) {
 				"synopsis": "Tutanota Desktop Client",
 				"category": "Network",
 				"desktop": {
-					"StartupWMClass": "Tutanota"
+					"StartupWMClass": "tutanota-desktop"
 				},
 				"target": [
 					{
